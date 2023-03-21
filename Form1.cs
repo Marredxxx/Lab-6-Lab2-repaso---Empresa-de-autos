@@ -179,7 +179,7 @@ namespace Lab_6_Lab2_repaso___Empresa_de_autos
 
                         foreach (var reporte in reportes)
                         {
-                            writer.WriteLine(reporte.Nombre;
+                            //writer.WriteLine(reporte.Nombre;
                             writer.WriteLine(reporte.Placa);
                             writer.WriteLine(reporte.Marca);
                             writer.WriteLine(reporte.FechaDevolucion);
@@ -199,7 +199,7 @@ namespace Lab_6_Lab2_repaso___Empresa_de_autos
 
                         foreach (var reporte in reportes)
                         {
-                            writer.WriteLine(reporte.Nombre;
+                            //writer.WriteLine(reporte.Nombre;
                             writer.WriteLine(reporte.Placa);
                             writer.WriteLine(reporte.Marca);
                             writer.WriteLine(reporte.FechaDevolucion);
@@ -208,12 +208,11 @@ namespace Lab_6_Lab2_repaso___Empresa_de_autos
                         writer.Close();//Cerrar el archivo
                     }
                 }
-                }
-
-
             }
 
-        
+
+        }
+ 
     }
-    }
+    
 }
